@@ -1,0 +1,491 @@
+* {
+  color: white;
+}
+
+body {
+  background-color: #191B5E;
+  height: 1000px;
+  border: 3px solid white;
+}
+
+/*home*/
+
+#head {
+  background: #333;
+  font: Lora;
+  border: solid black;
+  border-width: 5px;
+  height: 150px;
+  text-align: center;
+  text-shadow: black 4px 4px;
+}
+
+#sub {
+  margin-bottom: 50px;
+  font-size: 45px;
+}
+
+h1 {
+  font-size: 50px;
+  text-shadow: black 3px 3px;
+  margin: auto;
+  top:20px;
+  font-family: 'Fira Mono';
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.para {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+}
+
+.border {
+  border-bottom: solid white 3px;
+  margin: auto;
+}
+
+#map{
+  position: absolute;
+  top:500px;
+  right: 90px;
+  width: 40%;
+  height: 274px;
+  border: 5px solid white;
+}
+
+/* Navbar */
+
+.nav {
+  background-color: #333;
+  width: 145px;
+  margin: auto;
+  font-family: 'Fira Mono';
+  font-size: 20px;
+  text-align: left;
+  border: solid black;
+  border-width: 3px;
+  border-radius: 3%;
+  margin-top: 25px;
+  padding: auto;
+  float: left;
+  left: 10px;
+  position: relative;
+}
+
+#box {
+  color: white; 
+}
+
+#items li {
+  list-style-type: none;
+  font-size: 19px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.FB {
+  color: #fff;
+  position: absolute;
+  top: 100px;
+  right: 55px;
+  text-shadow: 3px 3px #000;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.district {
+  color: #fff;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  font-size: 23px;
+  text-shadow: 3px 3px #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Facebook Link*/
+
+#FB {
+  position: absolute;
+  right: 00px;
+  top: 110px;
+}
+
+
+/* the side words */
+
+#w {
+  color: white;
+  width: 690px;
+  top: 25px;
+  font-family: Times New Roman;
+  font-size: 23px;
+  position: absolute;
+  right: 100px;
+  top: 200px;
+  text-shadow: 3px 3px #000;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 750px;
+  margin: auto;
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  text-shadow: black 3px;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.active, {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* tables */ 
+
+table, th, td {
+    border: 2px solid white;
+  border-collapse: collapse;
+}
+
+td{
+  height:33px;
+}
+
+table {
+  max-width: 1000px;
+  min-width: 500px;
+  width: 1000px;
+  margin: auto;
+  position: relative;
+  top: 25px;
+}
+
+th, td {
+  color: white;
+  text-align: center;
+}
+
+.seed {
+  width: 150px;
+}
+
+.name{
+  width: 300px;
+}
+
+.yrspl {
+  width: 150px;
+}
+
+.grade {
+  width: 150px;
+}
+
+th {
+  font-size: 30px;
+  font-family: 'Fira Mono';
+}
+
+td {
+  font-size: 20px;
+  font-family: 'Josefin Sans';
+}
+
+/* staff n captains */
+
+body.cap {
+  height: 1820px;
+}
+
+.nm {
+  font-family: Radley;
+  position: absolute;
+  left: 520px;
+  top: 350px;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 100px;
+  display: block;
+}
+
+#AB {
+ top: 120px; 
+}
+
+#TC {
+  top: 350px;
+}
+
+#MD {
+  top: 580px;
+}
+
+#LD {
+  top: 770px;
+}
+
+#JJ {
+  top: 1000px;
+}
+
+#DS {
+  top: 1200px;
+}
+
+#GS {
+  top: 1430px;
+}
+
+#BW {
+  top: 1660px;
+}
+
+#place {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border: solid 2px white;
+  border-radius: 5%;
+  margin-bottom: 15px;
+  top: 10px;
+  left:290px;
+}
+
+#placeI{
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border: solid 2px white;
+  border-radius: 5%;
+  margin-bottom: 15px;
+  top: 10px;
+  left:142px;
+}
+
+#placeII {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border: solid 2px white;
+  border-radius: 5%;
+  margin-bottom: 15px;
+  top: 10px;
+  left:435px;
+}
+
+#d {
+  position: absolute;
+  left: 700px;
+  top: 40px;
+  color: white;
+  font-size:35px;
+}
+
+#S {
+    position: absolute;
+  left: 700px;
+  top: 270px;
+  color: white;
+  font-size:35px;
+}
+
+#P {
+    position: absolute;
+  left: 700px;
+  top: 500px;
+  color: white;
+  font-size:35px;
+}
+
+/* resources*/
+
+#bd {
+  height: 1330px;
+}
+
+#yt {
+  text-decoration: underline;
+  color: white;
+}
+
+.videos {
+text-align: center;
+  margin: 100px;
+}
+
+#ow {
+  position: absolute;
+  width: 420px;
+  display: block;
+}
+
+#onethree {
+   padding-bottom: 150px;
+  margin-right: 46px;
+}
+
+#twothree {
+  padding-bottom: 150px;
+}
+
+#two {
+  margin-left: 50px;
+  margin-right: 50px;
+} 
+
+#three {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#app {
+  width: 1000px;
+  text-align: left;
+  font-size: 20px;
+}
+
+/* schedule */
+
+#yr {
+  position: absolute;
+  top: 20px;
+  left: 275px;
+  font-family: Arial;
+  font-size: 40px;
+}
+
+/* gallery */
+
+body.gal {
+  height: 3850px;
+ 
+} 
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 500px;
+    height: 333px;
+    left: 50px;
+    position: relative;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 100%;
+}
+
+.lery {
+  position: absolute;
+  left: 150px;
+}
