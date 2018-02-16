@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>HOME</title>
+  
+  <!--  Styles  -->   <link href="https://fonts.googleapis.com/css?family=Radley" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">  
+  <link rel="stylesheet" href="styles/index.processed.css">
+ <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+  
+<div id="head">
+  <h1 class="title"> Chester County High School<h1>
+    <h1 id="sub">Tennis</h1>
+    <h2 class="FB"> Find us on Facebook</h2>
+    <h2 class="district">Boys District Champions of 2016</h2>
+    </div>
+    
+    <!-- nav bar -->
+    
+  <div class="nav">
+    <ul id="items">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../schedule.html">Schedule</a></li>
+      <li><a href="../staff.html">Staff</a></li>
+      <li><a href="../captains.html">Captains</a></li>
+      <!--neds a tooltip to make popup I think, but it looks hard to do. -->
+      <li id="box"><div class="tooltip">Roster
+        <span class="tooltiptext"><a href="../rosterboys.html">Boys</a><a href="../rostergirls.html"> Girls</a></span>
+</div></li>
+      <li><a href="../resources.html">Resource</a></li>
+      <li><a href="../gallery.html">Gallery</a></li>
+    </ul>
+    </div>
+    
+    <!-- change this picture-->
+ <div class="slideshow-container">
+  <div class="mySlides fade">
+    <img  src="https://i.imgur.com/v1Yl2kP.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img  src="https://i.imgur.com/V3qorqf.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="https://i.imgur.com/5VIvRp6.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+</div>
+    
+  <a id="FB" href="www.facebook.com/ChesterCountyTennis/">
+  <img src="http://www.bluemountainstation.com/wp-content/uploads/2014/01/fb-logo-trans-bg.png"style="width:60px;height:50px;border:0;">
+</a>    
+    <!-- change this too-->
+    <div>
+    <p id="w" class=”para”> Welcome to the Chester County Tennis Team's home page. We care most about the integrity of our team. <br /> <br /> In 2013 we had a student by the name of Dalton Hurst, he was everything that we wanted on our team, on and off the court. This in mind when he graduated we created an award named after him and since then it has become our most prostigius award. Past recipeints of the award include Nash Hern and Samule Sides in 2014, Alyssa Showers in 2015, and Joseph Egros in 2016.
+      </p>
+     
+    </div>
+    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d6501.231868115314!2d-88.6370362231048!3d35.43954296210256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d35.4411407!2d-88.6239744!5e0!3m2!1sen!2sus!4v1516817759540" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+  <script src="scripts/index.js"></script>
+</body>
+</html>
