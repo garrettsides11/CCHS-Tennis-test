@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>ROSTER-GIRLS</title>
+  
+  <!--  Styles  -->
+     <link href="https://fonts.googleapis.com/css?family=Radley" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+  <link rel="stylesheet" href="styles/index.processed.css">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="border">
+  <h1 class=”title”> Roster - Girls </h1>
+  </div>
+  
+    <!-- nav bar -->
+    
+  <div class="nav">
+    <ul id="items">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../schedule.html">Schedule</a></li>
+      <li><a href="../staff.html">Staff</a></li>
+      <li><a href="../captains.html">Captains</a></li>
+      <!--neds a tooltip to make popup I think, but it looks hard to do. -->
+      <li id="box"><div class="tooltip">Roster
+        <span class="tooltiptext"><a href="../rosterboys.html">Boys</a><a href="../rostergirls.html"> Girls</a></span>
+</div></li>
+      <li><a href="../resources.html">Resource</a></li>
+      <li><a href="../gallery.html">Gallery</a></li>
+    </div>
+    
+  
+    
+ <!-- Table --> 
+    <table>
+  <tr>
+    <th class="seed">Seed</th>
+    <th class="name">Name</th> 
+    <th class="grade">Grade</th>
+    <th class="yrspl">Years Played</th>
+  </tr>
+      <tr>
+    <td>1 (Second Dubbles)</td>
+    <td>Anna Beth Beaver</td> 
+    <td>Junior</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>2 (Second Dubbles)</td>
+    <td>LeighAnne Dugger</td> 
+    <td>Sophomore</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>3 (First Dubbles)</td>
+    <td>Tayler Cattlet</td> 
+    <td>Senior</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>4 (First Dubbles)</td>
+    <td>Jessica Jones</td> 
+    <td>Junior</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Tayler Henley</td> 
+    <td>Junior</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Misty Connoway</td> 
+    <td>Junior</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Allie Humpphry</td> 
+    <td>Junior</td>
+    <td>1</td>
+  </tr>
+   <tr>
+    <td>8</td>
+    <td>Caley Huddleston</td> 
+    <td>Junior</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Laura Beth Welch</td> 
+    <td>Sophmore</td>
+    <td>2</td>
+  </tr>  
+    <tr>
+    <td>10</td>
+    <td>Madison McCormick</td> 
+    <td>Junior</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>N/A</td>
+    <td>Madlyn Maples</td> 
+    <td>Sophmore</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>N/A</td>
+    <td>Micah Barber</td> 
+    <td>Junior</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>N/A</td>
+    <td>Mary Grace Bolton</td> 
+    <td>Freshman</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>N/A</td>
+    <td>Molly Connor</td> 
+    <td>Freshman</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>N/A</td>
+    <td>Presley Connor</td> 
+    <td>Junior</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>N/A</td>
+    <td>Sarah Hartman</td> 
+    <td>Sophmore</td>
+    <td>1</td>
+  </tr>
+</table>
+
+  <script src="scripts/index.js"></script>
+</body>
+</html>
